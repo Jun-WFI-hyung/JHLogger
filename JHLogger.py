@@ -70,7 +70,7 @@ class CustomTimedRotatingFileHandler(TimedRotatingFileHandler):
 
 class JHLogger:
     LOG_DIR: Final = './logs'
-    FILE_NAME: Final = os.path.join(LOG_DIR, 'TEST.log')
+    FILE_NAME: Final = os.path.join(LOG_DIR, 'LOG.log')
     logger = logging.getLogger('JHLogger')
     logger.setLevel(logging.DEBUG)
     
